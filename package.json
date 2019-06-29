@@ -1,0 +1,14 @@
+{
+  "name": "git_finder",
+  "version": "1.0.0",
+  "description": "This is a express, jquery and Ajax app which find github users details",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Github"
+  ],
+  "author": "Ashish",
+  "license": "MIT"
+}
