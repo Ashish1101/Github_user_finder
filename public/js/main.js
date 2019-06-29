@@ -12,8 +12,8 @@ $(document).ready(function(){
             $.ajax({
                 url: 'https://api.github.com/users/'+username+'/repos',
                 data: {
-                    client_id: '9607a4f2bd7c4818f55e',
-                    client_secret: '53e21156261b8a7f3220a997508b495a4b307b39'
+                    client_id: 'githu_client_id',
+                    client_secret: 'github_client_secret'
                 }
 
             }).done(function (repos){
