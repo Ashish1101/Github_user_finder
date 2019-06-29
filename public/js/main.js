@@ -51,7 +51,7 @@ $(document).ready(function(){
                         <button type="button" class="btn btn-warning">Location:${user.location}</button>
                         <button type="button" class="btn btn-primary">Followers:${user.followers}</button>
                         <button type="button" class="btn btn-success">Following:${user.following}</button>
-                        <button type="button" class="btn btn-info">Repos${user.public_repos}</button>
+                        <button type="button" class="btn btn-info">Repos:${user.public_repos}</button>
 
                          <ul class="list-group">
                             <li class="list-group-item">Blog: ${user.blog}</li>

@@ -4,11 +4,18 @@
   "description": "This is a express, jquery and Ajax app which find github users details",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon -e js app.js"
   },
   "keywords": [
     "Github"
   ],
   "author": "Ashish",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "nodemon": "^1.19.1"
+  }
 }
